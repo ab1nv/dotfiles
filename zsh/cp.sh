@@ -3,8 +3,10 @@
 cpwalias() {
     filename=$(xclip -o | tr "[:upper:]" "[:lower:]" | tr " " "_").cpp
     cp /home/abhinav/code/codebase/codeforces/templates/basic.cpp "$filename"
-    code "$filename"
+
+    code -g "$filename:8:13"   
 }
+
 
 cpralias() {
     base_name="${1%.cpp}"
