@@ -1,6 +1,0 @@
-alias gscp='!f() { git add . && git commit -m "$1" && git push origin main; }; f'
-alias gfetch='git fetch origin && git log HEAD..origin/main --oneline'
-alias gup='git fetch origin && git merge origin/main'
-alias gs='git status -sb'
-alias gco='git checkout'
-alias gb='git branch'
