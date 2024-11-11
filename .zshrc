@@ -38,9 +38,13 @@ cpralias() {
     fi
 }
 
-
 alias cpw=cpwalias
 alias cpr=cpralias
+
+# Setting up Go environment
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
 
 # Aliases
 
