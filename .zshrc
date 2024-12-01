@@ -45,6 +45,8 @@ export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
+export PATH="/home/abhinav/.local/bin:$PATH"
+
 # Aliases
 
 alias reload='source ~/.zshrc'
@@ -55,3 +57,4 @@ alias gup='git fetch origin && git merge origin/main'
 alias gs='git status -sb'
 alias gco='git checkout'
 alias gb='git branch'
+export PATH=$PATH:/home/abhinav/.spicetify
