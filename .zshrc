@@ -58,3 +58,5 @@ alias gs='git status -sb'
 alias gco='git checkout'
 alias gb='git branch'
 export PATH=$PATH:/home/abhinav/.spicetify
+
+eval $(thefuck --alias)
