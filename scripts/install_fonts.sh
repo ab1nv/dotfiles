@@ -26,10 +26,10 @@ install_jetbrains_nerd() {
 
 install_inter_font() {
     echo "Installing Inter Font..."
-    if is_installed ttf-inter; then
+    if is_installed inter-font; then
         echo "Inter Font is already installed."
     else
-        sudo pacman -S --noconfirm ttf-inter
+        yay -S --noconfirm inter-font
         echo "Inter Font installed successfully."
     fi
 }
