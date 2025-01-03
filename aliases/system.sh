@@ -1,0 +1,5 @@
+alias pls='sudo'
+alias update='sudo pacman -Syu && yay -Syu'
+alias refresh='sudo pacman -Scc && sudo pacman -Rns $(pacman -Qdtq) && yay -Yc'
+alias rb='reboot'
+alias sn='shutdown now'
