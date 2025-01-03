@@ -1,4 +1,5 @@
 #!/bin/bash
 
-# check if python is installed
-# install symlinks dependencies if not installed
+# install terminal, fonts, yay, stow, packages
+# force stow packages
+# bypass passwords 

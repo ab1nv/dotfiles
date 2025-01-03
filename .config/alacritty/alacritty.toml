@@ -1,0 +1,32 @@
+general.import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "tmux new-session -A -s main"]
+
+[window]
+dynamic_padding = true
+opacity = 1.0
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font" }
+bold = { family = "JetBrainsMono Nerd Font" }
+italic = { family = "JetBrainsMono Nerd Font" }
+bold_italic = { family = "JetBrainsMono Nerd Font" }
+size = 15
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[selection]
+save_to_clipboard = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"

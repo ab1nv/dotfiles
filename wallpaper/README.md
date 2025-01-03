@@ -1,0 +1,1 @@
+Place the wallpaper in this folder with the name `wallpaper.png` which `feh` will load when the system boots up.
